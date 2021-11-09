@@ -1,10 +1,23 @@
+@import url("/resources/css/font.css");
+
+:root {
+  --white: #ffffff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-section {
   width: 960px;
-  height: 390px;
-  margin: 0 0 57.5px;
+  height: 391px;
   padding: 22px 0 27.5px 0.3px;
   object-fit: contain;
-  background-image: url("/resources/img/main_01.jpg");
+  background-image: url("/resources/img/main_01.png");
+  font-family: Montserrat;
 }
 
 .main-header {
@@ -70,4 +83,125 @@
   color: #707070;
   opacity: 0.8;
   cursor: pointer;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-arrow {
+  margin-left: 38px;
+  cursor: pointer;
+}
+
+.right-arrow {
+  margin-right: 51px;
+  cursor: pointer;
+}
+
+.info-img {
+  margin-left: 19%;
+  margin-top: -30px;
+}
+
+.main-more {
+  width: 68px;
+  height: 18px;
+  border: 2px solid white;
+  margin-left: 19%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-text {
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.circle-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+}
+
+.fa-circle {
+  margin-left: 15px;
+  color: var(--white);
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.focus {
+  opacity: 1;
+}
+.business-img {
+  margin-top: 57.5px;
+  width: 596.5px;
+  height: 331px;
+  margin: 57.5px 181.5px 51px 182px;
+  object-fit: contain;
+}
+
+.project-img {
+  width: 960px;
+  height: 409px;
+  margin: 51px 0 0;
+  object-fit: contain;
+}
+
+.web-mobile {
+  background-image: url("/resources/img/m_img_01.png");
+  width: 960px;
+  height: 390px;
+}
+
+.web-mobile__img {
+  margin-left: 19%;
+  margin-top: 137.5px;
+}
+
+.group-12,
+.group-16 {
+  margin-top: 102.5px;
+}
+
+.footer {
+  margin-top: -1px;
+  background-image: url("/resources/img/footer.png");
+  width: 960px;
+  height: 200px;
+}
+
+.tooter-rectangle {
+  background-image: url("/resources/img/사각형\ 35.png");
+  width: 960px;
+  height: 26px;
+  text-align: center;
+}
+
+.tr-text {
+  width: 166px;
+  height: 9.5px;
+  font-family: NotoSansCJKkr;
+  font-size: 6.5px;
+  font-weight: 100;
+  line-height: 1.46;
+  letter-spacing: -0.39px;
+  text-align: left;
+  color: #fff;
+}
+
+.tooter-logo {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.footer-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 13px 220px 0px 252px;
 }
